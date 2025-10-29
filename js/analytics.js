@@ -5,7 +5,7 @@
 
 const PortfolioAnalytics = {
     // IMPORTANTE: Reemplaza 'G-XXXXXXXXXX' con tu ID de Google Analytics
-    measurementId: 'G-XXXXXXXXXX',
+    measurementId: 'G-T67PNET8HG',
     
     isInitialized: false,
     
