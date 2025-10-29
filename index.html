@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Mateo | Full Stack .NET Developer</title>
+    <title>Rafael Mateo | Full Stack .NET Developer | C# SQL JavaScript</title>
+    <meta name="description" content="Portfolio de Rafael Mateo, Full Stack Developer especializado en .NET, C#, ASP.NET Core, SQL Server y JavaScript. Experiencia en desarrollo de APIs RESTful y aplicaciones web escalables.">
+    <meta name="keywords" content="Rafael Mateo, Full Stack Developer, .NET Developer, C#, ASP.NET Core, SQL Server, JavaScript, desarrollador backend, desarrollador frontend, APIs RESTful, portfolio desarrollador">
+    <meta name="author" content="Rafael Mateo">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://rafaelmateo.dev/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rafaelmateo.dev/">
+    <meta property="og:title" content="Rafael Mateo | Full Stack .NET Developer">
+    <meta property="og:description" content="Portfolio de Rafael Mateo, Full Stack Developer especializado en .NET, C#, ASP.NET Core, SQL Server y JavaScript.">
+    <meta property="og:image" content="https://rafaelmateo.dev/assets/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rafaelmateo.dev/">
+    <meta property="twitter:title" content="Rafael Mateo | Full Stack .NET Developer">
+    <meta property="twitter:description" content="Portfolio de Rafael Mateo, Full Stack Developer especializado en .NET, C#, ASP.NET Core, SQL Server y JavaScript.">
+    <meta property="twitter:image" content="https://rafaelmateo.dev/assets/images/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon.ico">    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#0d6efd">
+    
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Rafael Mateo",
+      "url": "https://rafaelmateo.dev",
+      "image": "https://rafaelmateo.dev/assets/images/profile.jpg",
+      "jobTitle": "Full Stack .NET Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "The BigTech Experience"
+      },
+      "sameAs": [
+        "https://github.com/RafaelMateoGonzalez",
+        "https://linkedin.com/in/rafael-mateo-gonzález-dev",
+        "https://twitter.com/Rafamatheo1"
+      ],
+      "knowsAbout": [
+        "C#",
+        ".NET",
+        "ASP.NET Core",
+        "SQL Server",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Bootstrap",
+        "Entity Framework",
+        "RESTful APIs",
+        "Azure DevOps",
+        "Git"
+      ],
+      "email": "rafamateo250302@gmail.com"
+    }
+    </script>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    
+    <!-- AOS Animations -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cookies.css">
+   
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Rafael Mateo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#about" data-translate="nav.about">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience" data-translate="nav.experience">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education" data-translate="nav.education">Educación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills" data-translate="nav.skills">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects" data-translate="nav.projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" data-translate="nav.contact">Contacto</a></li>
+                    <li class="nav-item ms-3">
+                        <div class="switch-container">
+                            <i class="fas fa-sun"></i>
+                            <label class="switch">
+                                <input type="checkbox" id="themeToggle">
+                                <span class="slider"></span>
+                            </label>
+                            <i class="fas fa-moon"></i>
+                        </div>
+                    </li>
+                   <li class="nav-item ms-2">
+                    <select class="form-select form-select-sm language-selector" id="languageSelector">
+                        <option value="es" selected>🇪🇸 ES</option>
+                        <option value="en">🇬🇧 EN</option>
+                        <option value="fr">🇫🇷 FR</option>
+                        <option value="de">🇩🇪 DE</option>
+                    </select>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-image">
+                <!-- Descomenta la línea de abajo y comenta el icono para usar tu foto -->
+                <img src="assets/images/profile.png" alt="Rafael Mateo" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
+                <!-- <i class="fas fa-user"></i> -->
+            </div>
+           <h1 data-translate="hero.name">Rafael Mateo</h1>
+            <p class="subtitle typing-effect">
+                <span id="typed-text"></span>
+                <span class="cursor">|</span>
+            </p>
+                        
+            <!-- Dropdown para CVs -->
+            <div class="dropdown">
+                <button class="btn btn-download dropdown-toggle" type="button" id="cvDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-download me-2"></i>
+                    <span data-translate="hero.download">Descargar CV</span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="cvDropdown">
+                    <li>
+                        <a class="dropdown-item" href="assets/cv/CV_Rafael_Mateo_ES.pdf" download>
+                            <i class="fas fa-file-pdf me-2"></i>Español (ES)
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="assets/cv/CV_Rafael_Mateo_EN.pdf" download>
+                            <i class="fas fa-file-pdf me-2"></i>English (EN)
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="assets/cv/CV_Rafael_Mateo_FR.pdf" download>
+                            <i class="fas fa-file-pdf me-2"></i>Français (FR)
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="assets/cv/CV_Rafael_Mateo_DE.pdf" download>
+                            <i class="fas fa-file-pdf me-2"></i>Deutsch (DE)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title" data-translate="about.title">Sobre mí</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card" data-aos="fade-up">
+                        <div class="card-body">
+                            <p class="lead text-start" data-translate="about.description">
+                                Soy un desarrollador Full Stack .NET apasionado por crear soluciones tecnológicas eficientes y escalables. Con experiencia tanto en backend como en frontend, me especializo en el desarrollo de aplicaciones web robustas utilizando el stack de Microsoft. Mi enfoque se centra en escribir código limpio, mantenible y siguiendo las mejores prácticas de la industria.
+                            </p>
+                            <p class="text-start mt-3" data-translate="about.description2">
+                                Tengo una sólida experiencia en C#, ASP.NET, SQL Server y frameworks frontend modernos. Me apasiona el aprendizaje continuo y me mantengo actualizado con las últimas tecnologías y tendencias del desarrollo de software.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+ <!-- Experience Section -->
+<section id="experience" style="background: var(--card-bg);">
+    <div class="container">
+        <h2 class="section-title" data-translate="experience.title">Experiencia Laboral</h2>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="card" data-aos="fade-right">
+                    <div class="card-body">
+                        <div class="timeline-item">
+                            <h4 class="card-title" data-translate="experience.job1.title">Desarrollador Full Stack .NET</h4>
+                            <p class="company" data-translate="experience.job1.company">The BigTech Experience</p>
+                            <p class="dates" data-translate="experience.job1.dates">Julio 2025 - Presente</p>
+                            <ul>
+                                <li data-translate="experience.job1.desc1">Desarrollo de aplicaciones web con ASP.NET Core y Entity Framework</li>
+                                <li data-translate="experience.job1.desc2">Diseño e implementación de APIs RESTful</li>
+                                <li data-translate="experience.job1.desc3">Gestión de bases de datos SQL Server</li>
+                                <li data-translate="experience.job1.desc4">Desarrollo frontend con JavaScript, HTML5 y CSS3</li>
+                                <li data-translate="experience.job1.desc5">Implementación de metodologías ágiles (SCRUM)</li>
+                                <li data-translate="experience.job1.desc6">Integración continua con Azure DevOps</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 class="card-title" data-translate="experience.job2.title">Desarrollador Junior .NET</h4>
+                            <p class="company" data-translate="experience.job2.company">Laso S.L</p>
+                            <p class="dates" data-translate="experience.job2.dates">Marzo 2024 - Julio 2025</p>
+                            <ul>
+                                <li data-translate="experience.job2.desc1">Desarrollo y mantenimiento de aplicaciones ASP.NET MVC</li>
+                                <li data-translate="experience.job2.desc2">Creación de consultas y procedimientos almacenados en SQL Server</li>
+                                <li data-translate="experience.job2.desc3">Colaboración en proyectos de equipo usando Git</li>
+                                <li data-translate="experience.job2.desc4">Soporte técnico y resolución de incidencias</li>
+                            </ul>
+                        </div>
+
+                         <div class="timeline-item">
+                            <h4 class="card-title" data-translate="experience.job2.title">Desarrollador Trainee .NET</h4>
+                            <p class="company" data-translate="experience.job2.company">Laso S.L</p>
+                            <p class="dates" data-translate="experience.job3.dates">Septiembre 2023 - Marzo 2024</p>
+                            <ul>
+                                <li data-translate="experience.job2.desc1">Desarrollo y mantenimiento de aplicaciones ASP.NET MVC</li>
+                                <li data-translate="experience.job2.desc2">Creación de consultas y procedimientos almacenados en SQL Server</li>
+                                <li data-translate="experience.job2.desc3">Colaboración en proyectos de equipo usando Git</li>
+                                <li data-translate="experience.job2.desc4">Soporte técnico y resolución de incidencias</li>
+                            </ul>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title" data-translate="education.title">Educación</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card" data-aos="fade-left">
+                        <div class="card-body">
+                            <div class="timeline-item">
+                                <h4 class="card-title" data-translate="education.degree1.title">Grado Superior Desarrollo de aplicaciones web</h4>
+                                <p class="company" data-translate="education.degree1.institution">I.E.S Montessori | Zaragoza | España</p>
+                                <p class="dates" data-translate="education.degree1.dates">2022 - 2024</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4 class="card-title" data-translate="education.degree2.title">Certificación Microsoft Azure Developer Associate</h4>
+                                <p class="company" data-translate="education.degree2.institution">Microsoft</p>
+                                <p class="dates" data-translate="education.degree2.dates">2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" style="background: var(--card-bg);">
+        <div class="container">
+            <h2 class="section-title" data-translate="skills.title">Habilidades</h2>
+            
+            <h3 class="text-center mb-4" data-translate="skills.technical">Habilidades Técnicas</h3>
+            <div class="row mb-5">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>C# / .NET</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--skill-width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>ASP.NET Core</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--skill-width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>SQL Server</span>
+                                    <span>88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--skill-width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>Entity Framework</span>
+                                    <span>82%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--skill-width: 82%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>JavaScript</span>
+                                    <span>80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--skill-width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>HTML5 / CSS3</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--skill-width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>Bootstrap</span>
+                                    <span>83%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--skill-width: 83%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">
+                                    <span>Git / Azure DevOps</span>
+                                    <span>78%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--skill-width: 78%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="text-center mb-4" data-translate="skills.soft">Habilidades Blandas</h3>
+            <div class="row text-center">
+                <div class="col-md-3 col-6 mb-4" data-aos="zoom-in">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-users skill-icon"></i>
+                            <h5 data-translate="skills.soft1">Trabajo en Equipo</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-comments skill-icon"></i>
+                            <h5 data-translate="skills.soft2">Comunicación</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-lightbulb skill-icon"></i>
+                            <h5 data-translate="skills.soft3">Resolución de Problemas</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-sync-alt skill-icon"></i>
+                            <h5 data-translate="skills.soft4">Metodología SCRUM</h5>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-md-3 col-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                <div class="card">
+                    <div class="card-body">
+                    <i class="fas fa-brain skill-icon"></i>
+                    <h5 data-translate="skills.soft5">Pensamiento Crítico</h5>
+                    </div>
+            </div>
+            </div>
+               
+                <div class="col-md-3 col-6 mb-4" data-aos="zoom-in" data-aos-delay="500">
+                <div class="card">
+                    <div class="card-body">
+                    <i class="fas fa-clock skill-icon"></i>
+                    <h5 data-translate="skills.soft6">Gestión del Tiempo</h5>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-md-3 col-6 mb-4" data-aos="zoom-in" data-aos-delay="600">
+                <div class="card">
+                    <div class="card-body">
+                    <i class="fas fa-user-cog skill-icon"></i>
+                    <h5 data-translate="skills.soft7">Adaptabilidad</h5>
+                    </div>
+                </div>
+            </div>
+
+                <div class="col-md-3 col-6 mb-4" data-aos="zoom-in" data-aos-delay="700">
+                <div class="card">
+                    <div class="card-body">
+                    <i class="fas fa-book skill-icon"></i>
+                    <h5 data-translate="skills.soft8">Aprendizaje Continuo</h5>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title" data-translate="projects.title">Proyectos</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="flip-left">
+                    <div class="project-card card">
+                        <div class="project-placeholder">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <h4 data-translate="projects.project1.title">Sistema de Gestión</h4>
+                            <p data-translate="projects.project1.description">Aplicación web completa desarrollada con ASP.NET Core y SQL Server</p>
+                            <a href="#" class="btn btn-light mt-3">
+                                <i class="fab fa-github me-2"></i>
+                                <span data-translate="projects.view">Ver en GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="100">
+                    <div class="project-card card">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <h4 data-translate="projects.project2.title">E-Commerce API</h4>
+                            <p data-translate="projects.project2.description">API RESTful para comercio electrónico con autenticación JWT</p>
+                            <a href="#" class="btn btn-light mt-3">
+                                <i class="fab fa-github me-2"></i>
+                                <span data-translate="projects.view">Ver en GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="flip-left" data-aos-delay="200">
+                    <div class="project-card card">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <h4 data-translate="projects.project3.title">Dashboard Analítico</h4>
+                            <p data-translate="projects.project3.description">Panel de visualización de datos con gráficos interactivos</p>
+                            <a href="#" class="btn btn-light mt-3">
+                                <i class="fab fa-github me-2"></i>
+                                <span data-translate="projects.view">Ver en GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="background: var(--card-bg);">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact.title">Contacto</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="fade-up">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="lead" data-translate="contact.message">
+                                ¿Interesado en trabajar juntos o simplemente quieres saludar? ¡No dudes en contactarme!
+                            </p>
+                            <div class="contact-info">
+                                <i class="fas fa-envelope me-2"></i>
+                                <a href="mailto:rafamateo250302@gmail.com">rafamateo250302@gmail.com</a>
+                            </div>
+                            <div class="social-links">
+                                <a href="https://github.com/RafaelMateoGonzalez" target="_blank" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/rafael-mateo-gonzález-dev" target="_blank" title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://twitter.com/Rafamatheo1" target="_blank" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Rafael Mateo. <span data-translate="footer.rights">Todos los derechos reservados.</span></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <!-- Cookie  Analytics & Language Scripts -->
+    <script src="js/translation.js"></script>
+    <script src="js/analytics.js"></script>
+    <script src="js/cookies.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

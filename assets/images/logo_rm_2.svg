@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 180">
+  <!-- Monitor -->
+  <rect x="10" y="30" width="120" height="80" rx="8" ry="8" fill="none" stroke="#0D6EFD" stroke-width="6"/>
+  <rect x="50" y="120" width="40" height="8" fill="#0D6EFD"/>
+  <rect x="35" y="128" width="70" height="6" fill="#0D6EFD" rx="3"/>
+  
+  <!-- Gear icon -->
+  <circle cx="130" cy="40" r="10" fill="#0D6EFD"/>
+  <path d="M130 30 v-6 M130 56 v6 M120 40 h-6 M146 40 h6" stroke="#0D6EFD" stroke-width="3"/>
+
+  <!-- RM initials -->
+  <text x="30" y="90" font-family="Poppins, Montserrat, Open Sans, sans-serif"
+        font-size="45" font-weight="700" fill="#0D6EFD">RM</text>
+  
+  <!-- Text to the right -->
+  <text x="170" y="70" font-family="Poppins, Montserrat, Open Sans, sans-serif"
+        font-size="30" fill="#212529">Software</text>
+  <text x="170" y="110" font-family="Poppins, Montserrat, Open Sans, sans-serif"
+        font-size="30" fill="#212529">Developer</text>
+</svg>
